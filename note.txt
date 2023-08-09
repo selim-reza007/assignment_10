@@ -1,0 +1,20 @@
+In my new next.js app's root, I have 3 folders and 6 files. Here I will discuss each of these files, folders and files inside these folders. 
+
+Firstly I will discuss folders. These are 
+1. "app" folder: This is the example of app directory structure of next.js project. This folder will be the root path of this project. In this folder we have 5 files. These are
+a. favicon.ico: This is used here for the favicon purpuse.
+b. golbal.css: This is a css file. This file contains some default css code which are generated automatically.
+c. layout.js: This is the most critical and important file in this project. This file is consider as the entry file of next.js app. Because this file is the main master starting file. Here the global.css file is imported to provide css among all the remaining files. All other files will go through files. One time assets will be added here. In this file we have a "RootLayout" named function. This function holds our entire application. The structure of html of our this entire application is returned from this file. 
+d. page.js: This file is working as the home page of this application. 
+e. page.module.css: This file also contain css code for our page.js file.
+
+2. "node_module.css" folder: This file contain dev dependencie’s liberaries which are used in this project. 
+3. "public" folder: This folder will contain static assets (like image, svg etc.), which will be needed to complete this next.js project.
+
+Now I will discuss remaining files in our project folder. These are
+a. .gitignore: This file contain path of some files. Such as node_module. These listed files will not added to the git/github. 
+b. jsconfig.json: This file allow us to config JavaScript language.
+c. next.config.js: This file allow us to config our next.js project. This file is one of the most critical and crusial file in our application.
+d. package-lock.json: This file contain description of node_module's liberary which is installed.
+e. package.json: This file contain instruction of how to run the application. Also contain description of dependencies which will be required.
+f. README.md: This file also contain some instruction, which will be necessary for further development or will be beneficial for other developers.
